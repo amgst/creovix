@@ -1,0 +1,77 @@
+# Node
+node_modules/
+
+# Vite / build output
+dist/
+build/
+
+# Environment files
+.env
+.env.*.local
+.env.local
+
+# Vite cache
+.vite/
+
+# Parcel / other caches
+.cache/
+.parcel-cache/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Test / coverage
+coverage/
+.nyc_output/
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Temporary files
+*.tgz
+*.temp
+*.tmp
+
+# Misc
+.pnp.*
+.cache-loader
+
+# Lockfiles (optional — keep if you commit lockfiles intentionally)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Local env for editors
+local.env
+
+# Storybook
+.out/
+.storybook/
+
+# Coverage and build artifacts
+coverage/
+reports/
+
+# OS generated
+ehthumbs.db
+Icon?
+
+# Ignore IDE-specific workspace files
+*.code-workspace
+
+# End of file
